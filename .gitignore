@@ -1,0 +1,28 @@
+# Symlinks — these reference local paths
+from-linux/
+
+# Large binary files from Mac
+from-mac/PID入门教程资料/工具软件/
+from-mac/PID入门教程资料/课件PPT/
+from-mac/PID入门教程资料/参考文档/
+*.pptx
+*.exe
+*.dmg
+*.zip
+*.rar
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.hex
+build/
+Objects/
+Listings/
+DebugConfig/
