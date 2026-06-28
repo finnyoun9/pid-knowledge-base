@@ -10,6 +10,8 @@
 
 ```
 pid-knowledge-base/
+├── theory/                  ← 📐 PID 理论文档（LaTeX 数学公式）
+│   └── pid-theory.md        → 完整理论：公式推导/三种PID/抗饱和/调参/面试
 ├── from-linux/              ← Ubuntu 本机（符号链接）
 │   ├── balance-car-source   → 平衡车程序源码（9阶段）
 │   ├── pid-tutorial-source  → PID入门教程-程序源码
